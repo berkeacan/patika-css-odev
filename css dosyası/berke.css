@@ -1,0 +1,202 @@
+/* body kısmı css başlangıcı */
+body {
+    background-color: rgb(232, 239, 245);
+    margin-left: 100px;
+}
+/* body kısmı css bitişi */
+
+/* header kısmı css başlangıcı */
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.başlık1 {
+    color: red;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+}
+
+.alt-baslik {
+    display: flex;
+    justify-content: space-around;
+    color: blueviolet;
+}
+
+.alt-baslik a {
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.alt-baslik a:hover{
+    background-color: rgb(222, 149, 193);
+}
+
+.alt-baslik ul {
+    display: flex;
+    list-style-type:none;
+    padding-top: 15px;
+}
+
+.alt-baslik ul li {
+    margin-right: 10px;
+}
+
+.üyelik {
+    display: flex;
+    padding-top: 15px;
+    color: blueviolet;
+    margin-left: 253px;
+}
+
+.arama-butonu {
+    width: auto;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.üyelik p {
+    margin-right: 10px;
+    float: right;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.üyelik p:hover{
+    background-color: rgb(222, 149, 193);
+}
+/* header kısmı css bitişi */
+
+/* aside kısmı css başlangıcı */
+.aside {
+    border: 2px solid #ccc;
+    border-color: rgb(7, 7, 7);
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: auto;
+    overflow: auto;
+    width: 130px;
+    height: auto;
+    display: flex;
+}
+/* aside kısmı css bitişi */
+
+/* bakliyat reyonu kısmı css başlangıcı */
+
+.article1 img {
+    border: 1px solid;
+    margin: 30px;
+    margin-left: auto;
+}
+
+.bakliyat-reyonu1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 80px;
+    margin-right: 70px;
+    margin-top: -250px;
+}
+
+.bakliyat-reyonu2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 80px;
+    margin-right: 70px;
+}
+
+.bakliyat-reyonu3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 80px;
+    margin-right: 70px;
+}
+
+.bakliyat-reyonu4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 80px;
+    margin-right: 70px;
+}
+
+.bakliyat-reyonu5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 80px;
+    margin-right: 70px;
+}
+/* bakliyat reyonu kısmı css bitişi */
+
+/* sebze reyonu kısmı css başlangıcı */
+
+.sebze-reyonu1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 80px;
+    margin-right: 70px;
+}
+.sebze-reyonu1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 80px;
+    margin-right: 70px;
+}
+.sebze-reyonu2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 80px;
+    margin-right: 70px;
+}
+.sebze-reyonu3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 80px;
+    margin-right: 70px;
+}
+.sebze-reyonu4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 80px;
+    margin-right: 70px;
+}
+.sebze-reyonu5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 80px;
+    margin-right: 70px;
+}
+/* sebze reyonu css kısmı bitişi */
+
+/* meyve reyonu css kısmı başlangıç */
+.meyve-reyonu1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 80px;
+    margin-right: 70px;
+}
+.meyve-reyonu2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 80px;
+    margin-right: 70px;
+}
+
+.meyve-reyonu3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 80px;
+    margin-right: 70px;
+}
+.meyve-reyonu4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 80px;
+    margin-right: 70px;
+}
+.meyve-reyonu5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 80px;
+    margin-right: 70px;
+}
+/* meyve reyonu kısmı css bitiş */
+
